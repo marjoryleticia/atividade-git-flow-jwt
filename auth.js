@@ -6,3 +6,4 @@ function login(usuario, senha) {
 // Validação do token JWT.
 
 module.exports = login;
+// Validação JWT atualizada
