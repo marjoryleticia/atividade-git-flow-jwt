@@ -1,5 +1,8 @@
-function login(){
-    console.log("Login realizado!");
+function login(usuario, senha) {
+    return {
+        token: "jwt-token-exemplo"
+    };
 }
+// Validação do token JWT.
 
-login();
+module.exports = login;
